@@ -7,7 +7,7 @@ Repo that replicates the error described at https://github.com/python-poetry/poe
 2) Clone the repo
 
 ```
-git clone https://github.com/AzMoo/gitlab-poetry-test/
+git clone https://github.com/AzMoo/gitlab-poetry-test.git
 ```
 
 3) Run the gitlab runner
