@@ -4,8 +4,7 @@ stages:
 test:
   stage: build
   image: python:3.7.5-slim
-  services:
-    - greenmail/standalone:latest
   script:
-    - pip install poetry
+    - pip install pip --upgrade
+    - pip install "poetry<=1.1.3"
     - poetry install
